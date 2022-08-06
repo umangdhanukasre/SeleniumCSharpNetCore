@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wozW5DxkWa1C5Hgz+r/mDXQnnwHsWMKDlo/2uvpZtBP2BM8hfrPl76nmV7qDOCu/0xq+8lGSoo0SF5u5VPBaoA==",
+  "dgSpecHash": "aRJH4OHwx2Lf7vA/2kTMun16yj58kZP/E/h+dfBMS/m3kk2vkXRpRlaFOychwhhuzZzWY7k/PSTjqM1UcD4+og==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dell\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\Dell\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\selenium.support\\4.3.0\\selenium.support.4.3.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\selenium.webdriver\\4.3.0\\selenium.webdriver.4.3.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],

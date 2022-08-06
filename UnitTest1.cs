@@ -13,6 +13,7 @@ namespace SeleniumCSharpNetCore
         public void Setup()
         {
             driver = new ChromeDriver(Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName, "drivers"));
+            driver.Manage().Window.Maximize();
         }
 
         [Test]
@@ -21,15 +22,8 @@ namespace SeleniumCSharpNetCore
             driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com/");
             driver.FindElement(By.Id("ContentPlaceHolder1_Meal")).SendKeys("Pota");
             CustomControl.ComboBox("ContentPlaceHolder1_AllMealsCombo", "Almond");
-
-
-            ArrayList test= new ArrayList();
-            var options = driver.FindElements(By.XPath("//div[@class = 'elabel']//a"));
-            foreach (var option in options)
-            {
-                test.Add(option.Text);
-            }
-            Assert.Pass();
+            driver.Close();
+            driver.Quit();
         }
     }
 }

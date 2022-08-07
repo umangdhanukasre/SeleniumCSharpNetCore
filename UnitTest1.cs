@@ -42,11 +42,8 @@ namespace SeleniumCSharpNetCore
             LoginPage loginPage = new LoginPage();
             loginPage.EnterUsernameAndPassword("admin", "password");
             loginPage.ClickLogin();
-            bool result = homepage.IsLogOffDisplayed();
-            if (homepage.IsLogOffDisplayed())
-            {
-                homepage.lnkLogOff.Click();
-            }
+            Assert.That(homepage.IsLogOffDisplayed(), Is.True);
+            homepage.lnkLogOff.Click();            
         }
 
         [TearDown]
